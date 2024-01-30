@@ -1,0 +1,475 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+body{
+    background: #121111;
+    background-image: url(images/gray.png);
+    background-size: 1200px 520px;
+    background-repeat: no-repeat;
+    background-position: 50% 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.cs-hidden{
+	overflow: visible !important;
+}
+
+
+/*--- navigation bar section ---*/
+.navbar {
+  background:#282828;
+}
+.nav-link,
+.navbar-brand {
+  color: #fff;
+  cursor: pointer;
+}
+.nav-link:hover {
+  color: #000;
+}
+.nav2-link {
+  color: #fff;
+  cursor: pointer;
+}
+.nav2-link:hover {
+  color: #000;
+}
+.nav3-link {
+  color: #fff;
+  cursor: pointer;
+  margin-left: 30px;
+}
+.nav3-link:hover {
+  color: #000;
+}
+.navbar-collapse {
+  justify-content: flex-end;
+}
+.content{
+    position: relative;
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-bottom: 30px;
+}
+
+
+/*--- free games section ---*/
+.container{
+    margin-left: 180px;
+}
+.slider-frame{
+    overflow: hidden;
+    height: 800px;
+    width: 1000px;
+    margin-left: 5px;
+    margin-top: 20px;
+    border-radius: 5px;
+
+}
+@-webkit-keyframes slide_animation{
+    0% {right:0px;}
+    10% {right:0px;}
+    20% {right:1000px;}
+    30% {right:1000px;}
+    40% {right:2000px;}
+    50% {right:2000px;}
+    60% {right:3000px;}
+    70% {right:3000px;}
+    80% {right:4000px;}
+    90% {right:4000px;}
+    100% {right:4000px;}
+
+}
+.slide-images{
+    width: 8000px;
+    height: 800px;
+    margin: 0 0 0 0px;
+    position: relative;
+    -webkit-animation-name: slide_animation;
+    -webkit-animation-duration: 20s;
+    -webkit-animation-iteration-count:infinite;
+    -webkit-animation-direction:alternate;
+    -webkit-animation-play-state:running;
+}
+.img-container{
+    height: 550px;
+    width: 1000px;
+    position: relative;
+    float: left;
+}
+.img-container img{
+    width: 100%;
+    height: 100%;
+}
+
+
+/*--- slide frame sidebar section ---*/
+.right-navbar{
+    margin-top: -870px;
+    margin-left: 1250px;
+}
+.side-icon img{
+    width: 80px;
+    height: 100px;
+    margin-top: 65px;
+    border-radius: 8px;
+}
+.side-icon-text-side h6{
+    position: relative;
+    color: white;
+    margin-left: 100px;
+    margin-top: -75px;
+    font-weight: 550;
+    font-size: 15px;
+}
+
+
+/*--- most popular games section ---*/
+#main{
+    margin-top: 80px;
+    margin-left: 180px;
+    max-width: 1440px;
+}
+.showcase-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 260px;
+    height: 450px;
+	margin: 0px 0px 10px 10px;
+    margin-left: 20px;
+    overflow-y: hidden;
+}
+.showcase-box:hover{
+	transform: scale(1.04);
+    cursor: pointer;
+}
+.showcase-box img{
+    width: 100%;
+    height: 100%;
+}
+.showcase-heading{
+	color: #ffff;
+    margin-top: 120px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+	font-weight: 500;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	font-size: 1.2rem;
+}
+.showcase-text h5{
+    color: white;
+    font-weight: 500;
+    font-size: 19px;
+    align-items: center;
+    margin-top: 8px;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+.showcase-text p{
+	color: #ffff;
+	font-weight: 540;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+    font-size: 17px;
+    text-align: center;
+}
+
+
+/*--- free games section ---*/
+.free-game{
+    margin-top: 25px;
+    margin-left: 200px;
+}
+.free-game h3{
+    margin-left: 5px;
+    margin-bottom: 20px;
+	letter-spacing: 1px;
+    max-width: 1425px;
+}
+.free-game-box{
+    align-items: center;
+
+}
+.free-game-box img{
+    width: 600px;
+    height: 350px;
+    border-radius: 3%;
+}
+.free-game-text{
+    color: white;
+    margin-top: 20px;
+	font-weight: 540;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+    font-size: 15px;
+    
+}
+.free-game-text h5{
+    color: white;
+    font-weight: 500;
+    font-size: 19px;
+    align-items: center;
+    margin-top: 8px;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+.free-game-box2{
+    margin-top: -450px;
+    margin-left: 650px;
+
+}
+.free-game-box2 img{
+    width: 600px;
+    height: 350px;
+    border-radius: 3%;
+}
+.free-game-text2{
+    color: white;
+    margin-top: 20px;
+    font-weight: 540;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+    font-size: 15px;
+}
+.free-game-text2 h5{
+    color: white;
+    font-weight: 500;
+    font-size: 19px;
+    align-items: center;
+    margin-top: 8px;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+/*--- bundle games section ---*/
+.other-game-section{
+    margin-left: 280px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.side-icon-text h6{
+    position: relative;
+    color: white;
+    margin-left: 100px;
+    margin-top: -75px;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+/*--- farcry bundle games section ---*/
+.new-Games{
+    margin-left: -70px;
+}
+.new-Games h4{
+    color: white;
+    margin-left: -10px;
+    font-weight: 500;
+    font-weight: bold;
+    margin-bottom: -50px;
+}
+.side-icon img{
+    width: 80px;
+    height: 100px;
+    margin-top: 65px;
+    border-radius: 8px;
+}
+
+
+/*--- resident evil bundle games section ---*/
+.top-sellers-games{
+    margin-left: 400px;
+    margin-top: -480px;
+    margin-bottom: 50px;
+}
+.top-sellers-games h4{
+    color: white;
+    margin-left: -10px;
+    font-weight: 500;
+    font-weight: bold;
+    margin-bottom: -50px;
+}
+
+
+/*--- forza horizon bundle games section ---*/
+.coming-soon-games{
+    margin-left: 950px;
+    margin-top: -520px;
+}
+.coming-soon-games h4{
+    color: white;
+    margin-left: -10px;
+    font-weight: 500;
+    font-weight: bold;
+    margin-bottom: -50px;
+}
+
+
+/*--- new games section ---*/
+#main2{
+    margin-top: 80px;
+    margin-left: 190px;
+}
+#main2 h3{
+    max-width: 1495px;
+    margin-left: 10px;
+    margin-top: 130px;
+}
+.new-game-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 480px;
+    margin-left: 20px;
+    overflow-y: hidden;
+}
+.new-game-box:hover{
+	transform: scale(1.04);
+    cursor: pointer;
+}
+.new-game-box img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+    border-radius: 10px;
+}
+
+.new-game-text p{
+	color: #ffff;
+	font-weight: 500;
+	letter-spacing: 1px;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+
+/*--- catalog section ---*/
+.catalog{
+    margin-top: 100px;
+    margin-left: 350px;
+}
+.catalog-box{
+    align-items: center;
+    margin-left: -165px;
+}
+.catalog-box img{
+    width: 750px;
+    height: 450px;
+    border-radius: 10px;
+}
+.catalog-text h5{
+    color: white;
+    margin-top: -300px;
+    margin-left: 800px;
+    margin-bottom: 310px;
+    font-weight: 550;
+    font-size: 23px;
+    align-items: center;
+    font-weight: bold;
+}
+.catalog-text p{
+    color: #ffff;
+    margin-top: -300px;
+    margin-left: 800px;
+    margin-bottom: 300px;
+	letter-spacing: 1px;
+    font-size: 15px;
+}
+
+/*--- catalog section btn ---*/
+.btn-custom{
+    background-color: #303e47;
+    font-weight: 690 !important;
+    font-weight: bold;
+    color:white !important;
+    margin-top: -450px;
+    margin-left: 985px;
+    padding: 15px 23px; 
+}
+.btn:hover {
+    background: #dd163b;
+}
+.btn-collection{
+    max-width: 241px;
+    margin:  2em auto;
+}
+
+
+
+
+/*--- footer section ---*/
+footer{
+    background: #282828;
+    height: auto;
+    width: 100vw;
+    padding-top: 40px;
+    color: #ffffff;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: auto;
+}
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    columns: #111;
+}
+.socials a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+}
+.socials a:hover i{
+    color: white;
+}
+.footer-bottom{
+    background: #000;
+    width: 100vw;
+    padding: 10px 0;
+    text-align: center;
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
