@@ -1,0 +1,90 @@
+FPS-ACTION
+Call of duty
+Insurgency
+Halo
+Borderlands
+Farcry
+Counter Strike
+Valorant
+Left for Dead 2
+Titanfall
+Apex Legends
+Battlefield
+Crysis
+
+
+ACTION-ADVENTURE
+Elden Ring
+Red dead redemption
+It takes two
+Zelda
+Naruto storm 4
+Devil MayCry
+Uncharted 
+Assassins creed
+Resident evil
+Tomb raider
+GTA
+DEATH STRANDING DIRECTOR'S CUT
+
+
+MULTIPLAYER
+Fall Guys/               FAL
+Among Us/                  AMO
+Animal Crossing: New Horizons/         ANI
+Call of Duty: Warzone/              COD
+Halo: The Master Chief Collection/   HAM
+Halo Infinite/                  HAI
+Final Fantasy XIV Online/       FIN
+Mario Kart 8/                  MAR
+Splitgate/              SPL
+Super Smash Bros. Ultimate/    SUP
+Guilty Gear Strive/        GUI
+Rainbow Six: Siege/             RAI
+
+
+HORROR
+Outlast //           OUT
+The last of us (2013)//  LAS
+Alien: Isolation (2014)//       ALI
+Resident Evil 7: Biohazard (2017)//  REB
+Resident Evil Village (2021)//    REV
+Dead Rising 3 //         DED
+Little Nightmares//           LIT
+Metro Exodus//              MET
+The Evil Within 2//            EVI
+Condemned: Criminal Origins//       CON
+System Shock 2/                   SYS
+Amnesia: The Dark Descent//   AMN
+--------------------------------
+
+GAME NAME
+game tagline
+PRICE
+
+release date
+developer
+categories/tags
+
+Portrait poster
+sample pics (3)
+
+description
+system requirements
+-------------------------
+DISCOVER PAGE (main page)
+BROWSE PAGE
+    <tabs> (FPS/Action/Horror/Multi)
+    game1 game2 game3 game4 ...
+    ...
+
+            FPS games
+                >10 games(indiv pages)
+            Action games
+                >10 games(indiv pages)
+            Horror games
+                >10 games(indiv pages)
+            Multiplayer games
+                >10 games(indiv pages)
+-------------------------------
+
